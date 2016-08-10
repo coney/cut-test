@@ -33,21 +33,6 @@
     <ClInclude Include="src\fizz_game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\rules.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="test\add_mock.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\add.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\http_client.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\weather_notifier.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="gmock\gmock_main.cpp">
@@ -59,34 +44,7 @@
     <ClCompile Include="src\fizz_game.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\rules.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\add.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="test\cmock_function_mockers_test.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="test\cmock_on_call_test.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="test\add_mock.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="test\cmock_function_mockers_test_x.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="test\fizz_game_test.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="test\weather_notifier_test.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\http_client.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\weather_notifier.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

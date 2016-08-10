@@ -115,27 +115,13 @@
     <ClInclude Include="gmock\cmock\cmock.h" />
     <ClInclude Include="gmock\gmock\gmock.h" />
     <ClInclude Include="gmock\gtest\gtest.h" />
-    <ClInclude Include="src\add.h" />
     <ClInclude Include="src\fizz_game.h" />
-    <ClInclude Include="src\http_client.h" />
-    <ClInclude Include="src\rules.h" />
-    <ClInclude Include="src\weather_notifier.h" />
-    <ClInclude Include="test\add_mock.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="gmock\gmock-gtest-all.cpp" />
     <ClCompile Include="gmock\gmock_main.cpp" />
-    <ClCompile Include="src\add.c" />
     <ClCompile Include="src\fizz_game.c" />
-    <ClCompile Include="src\http_client.c" />
-    <ClCompile Include="src\rules.c" />
-    <ClCompile Include="src\weather_notifier.c" />
-    <ClCompile Include="test\add_mock.cpp" />
-    <ClCompile Include="test\cmock_function_mockers_test.cpp" />
-    <ClCompile Include="test\cmock_function_mockers_test_x.cpp" />
-    <ClCompile Include="test\cmock_on_call_test.cpp" />
     <ClCompile Include="test\fizz_game_test.cpp" />
-    <ClCompile Include="test\weather_notifier_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Makefile" />

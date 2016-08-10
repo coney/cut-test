@@ -51,6 +51,8 @@ $(C_DEP): %.d : %.c
 $(CXX_DEP): %.d : %.cpp
 	$(CPP) $(C_INC) -MM $< > $@
 
+$(C_OJB): %.c
+
 $(C_SO): $(C_OBJ)
 	$(CC) -shared -Wl,-soname,$@ -o $@ $(patsubst %.so,%.o,$(subst src/lib,src/,$@))
 
