@@ -8,6 +8,7 @@
         {
             AddMock mock;
             EXPECT_FUNCTION_CALL(mock, (1, 2)).WillOnce(Return(0));
+            EXPECT_FUNCTION_CALL(mock, (2, 3)).WillRepeatedly(Return(0));
             ASSERT_EQ(0, add(1, 2));
         }
         ASSERT_EQ(3, add(1, 2));

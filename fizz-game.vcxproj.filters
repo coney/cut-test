@@ -42,6 +42,12 @@
     <ClInclude Include="src\add.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\http_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\weather_notifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="gmock\gmock_main.cpp">
@@ -72,6 +78,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="test\fizz_game_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\weather_notifier_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http_client.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\weather_notifier.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
