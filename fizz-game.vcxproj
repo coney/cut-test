@@ -130,6 +130,7 @@
     <ClCompile Include="test\cmock_function_mockers_test.cpp" />
     <ClCompile Include="test\cmock_function_mockers_test_x.cpp" />
     <ClCompile Include="test\cmock_on_call_test.cpp" />
+    <ClCompile Include="test\fizz_game_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Makefile" />

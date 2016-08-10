@@ -3,5 +3,7 @@
 *.so
 ~*
 .vs
+*.db
+*.opendb
 cut-test
 
