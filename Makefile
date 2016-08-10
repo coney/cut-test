@@ -45,7 +45,6 @@ clean:
 test: $(TARGET)
 	./$(TARGET)
 
-$(C_OBJ): %.c
 
 $(C_DEP): %.d : %.c
 	$(CPP) $(C_INC) -MM $< > $@
