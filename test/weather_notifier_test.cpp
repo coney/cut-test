@@ -1,5 +1,4 @@
 #include <cmock/cmock.h>
-#include "add.h"
 extern "C" {
 #include "http_client.h"
 #include "weather_notifier.h"
